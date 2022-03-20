@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+  
+  #navbar {
+    font-family: 'Roboto';
+    position: fixed;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+    width: 300px;
+    height: 100%;
+    padding: 45px 0px 0px 0px;
+  }
+#nav-bar {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.nav-link {
+  display: flex;
+  padding: 15px 15px 15px 15px;
+  color: black;
+}
+
+.nav-link:hover {
+  font-size: 22px;
+}
+
+#header {
+  font-size: 30px;
+  text-align: center;
+}
+.main-section {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 325px;
+  margin-right: 75px;
+}
+
+#header_1 {
+  font-size: 25px;
+}
+
+#header_2 {
+  font-size: 25px;
+}
+
+#header_3 {
+  font-size: 25px;
+}
+
+#header_4 {
+  font-size: 25px;
+}
+
+#header_5 {
+  font-size: 25px;
+}
+
+#header_6 {
+  font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  #main-doc {
+    font-size: 1.4rem;
+  }
+  #nav-bar {
+    font-size: 3re;
+  }
+}

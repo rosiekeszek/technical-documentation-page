@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Technical Documentation Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+  <head>
+    <title>HTML Code Elements</title>
+  </head>
+  
+  <body>
+    
+    <nav id="navbar">
+      <header id="header">HTML Code</header>
+      <ul id="nav-bar">
+        <li><a class="nav-link" href="#What_Is_HTML?">What Is HTML?</a></li>
+        <li><a class="nav-link" href="#HTML_Tags">HTML Tags</a></li>
+        <li><a class="nav-link" href="#Attributes_and_Values">Attributes and Values</a></li>
+        <li><a class="nav-link" href="#Empty_Elements">Empty Elements</a></li>
+        <li><a class="nav-link" href="#Semantic_Markup">Semantic Markup</a></li>
+        <li><a class="nav-link" href="#Creating_Lists_in_HTML">Creating Lists in HTML</a></li>
+        
+      </ul>
+    </nav>
+      
+      
+      <main id="main-doc">
+        <section id="What_Is_HTML?" class="main-section">
+          <header id="header_1">What Is HTML?</header>
+          <p>HTML stands for Hypertext Markup Language. It is a system of symbols or codes which, when inserted into a file, tells web browsers how to display a web page's text and images. These pieces of code are called tags or elements.</p>
+        </section>
+        
+        <section id="HTML_Tags" class="main-section">
+          <header id="header_2">HTML Tags</header>
+          <p>HTML tags are generally used in pairs, one tag is placed at the beginning of the information (text or image to be displayed on the web page), another is placed at the end of the information. These are called opening tags and closing tags. The tags function is to tell the web browser what to do with the content in between them.</p>
+          <p>An opening tag will look like this:<pre><code>&lt;header&gt;</code></pre>with no spaces between the brackets and the characters.</p><p>A closing tag will contain a slash like this:<pre><code>&lt;/header&gt;</code></pre>Between these two tags would be the content which appears on the screen. Here's an example:<pre><code>&lt;header&gt;This is a header&lt;/header&gt;</code></pre>Note that there are no spaces between the brackets and the text. The words 'This is a header' are all that you will see on the web page.
+          </p>
+          </section>
+          <section id="Attributes_and_Values" class="main-section">
+            <header id="header_3">Attributes and Values</header>
+          <p>Opening tags may have attributes. Attributes must have a name and a value. Values are important for applying CSS rules to your HTML. This is an example of an opening tag with attributes and values:</p><p><pre><code>&lt;header id="main-header" class="header-1"&gt;</code></pre></p><p> In this example the id and class are attributes assigned to this header tag. Each has a value which is in double quotation marks. Attributes are used to identify sections of HTML so that CSS (Cascading Style Sheet) rules an be applied to the content between the tags. Attributes, like tags, are specific codes whereas values can be made up by the coder.</p></section>
+        <section id="Empty_Elements" class="main-section"><header id="header_4">Empty Elements</header>
+          <p>There are a few elements which consists of a single tag rather than the opening and closing paired tags. These are called empty elements. Examples of empty elements are:</p>
+            <ul>
+              <li><pre><code>&lt;br&gt;</code></pre></li>
+              <li><pre><code>&lt;hr&gt;</code></pre></li>
+              </ul>
+              <p>The first element in this list is called a break tag and is used to create a break in the content, whatever comes after this element will start on a new line. The second element is used to a horizontal line which is useful in separating sections with different topics.</p> 
+          </section>
+        <section id="Semantic_Markup" class="main-section"><header id="header_5">Semantic Markup</header>
+          <p>Semantic markup elements are used to indicate emphasis in a text rather than define the structure of the page. Some examples of semantic markup are:</p>
+            <ul>
+              <li><pre><code>&lt;strong&gt;</code></pre></li>
+              <li><pre><code>&lt;em&gt;</code></pre></li>
+              <li><pre><code>&lt;ins&gt;</code></pre></li>
+              <li><pre><code>&lt;del&gt;</code></pre></li>
+              <li><pre><code>&lt;s&gt;</code></pre></li>
+          </ul>
+              <p>These tags allow us to note where text should be emphasized by making the font <strong>bold</strong> or by using <em>italics</em>. The last three tags are used to show changes to the text. Like when you want the <del>viewer</del> <ins>reader</ins> to see that you changed your mind about which words to use. In the last sentence I used the del and ins tags to show which word I would have deleted and which word I would have chosen to insert to replace it. The last tag shows another way to do this. The s tag strikes through information that you would like to remain visible. Such as <s>original price</s> vs sale price on an advertisement.</p>
+          </section>
+        <section id="Creating_Lists_in_HTML" class="main-section"><header id="header_6">Creating Lists in HTML</header>
+          <p>There are three types of lists in HTML:</p> 
+          <ul><li>ordered lists</li>
+            <li>unordered lists</li>  <li>definition lists</li></ul>
+              <p>These are pretty straightforward. Ordered lists will arrange the items in ascending order useing numbers or letters, unordered lists will insert bullet points, definition lists create a format which shows a definition, such as a dictionary entry</p></section> 
+    </main>  
+      
+    
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
